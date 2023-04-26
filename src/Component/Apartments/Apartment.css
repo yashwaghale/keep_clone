@@ -1,0 +1,47 @@
+.Apartment_container{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.Apartment_us{
+    width: 10rem;
+    color: #FF5A3C;
+    background-color: #feded8;
+    border-radius: 20px;
+    padding: 0.2em;
+    margin: auto;
+}
+
+.Apartment_heading{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.apartment_navbar{
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.apartment_navbar:hover{
+    color: #FF5A3C;
+    border-bottom: 2px solid #FF5A3C;
+    cursor: pointer;
+}
+
+.Apartment_row{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+
+@media screen and (max-width: 1199px) and (min-width: 993px) {
+    
+    .Apartment_container{
+        width: 90%;
+    }
+}
+

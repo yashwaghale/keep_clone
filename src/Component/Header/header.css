@@ -1,0 +1,84 @@
+.header{
+    background-color: #212529;
+    height: 3rem;
+}
+
+.nest-tower{
+    text-align: center;
+    line-height: 2.5;
+}
+
+.Mail{
+    margin-right: 1.5rem;
+    color: white;
+}
+
+.Add{
+    color: white;
+}
+
+.Add:hover {
+    color: #FF5A3C;
+    cursor: pointer;
+}
+.Mail:hover {
+    color: #FF5A3C;
+    cursor: pointer;
+}
+
+.bi-envelope , .bi-geo-alt{
+    color: #FF5A3C;
+    padding: 10px;
+}
+
+.social-icon{
+    color: white;
+    text-align: center;
+}
+
+.bi-facebook , .bi-twitter , .bi-instagram {
+    padding: 0.6rem;
+    line-height: 2.5;
+    cursor: pointer;
+}
+
+.Add-btn{
+    background-color: #FF5A3C;
+    height: 48px;
+    padding: 0 1rem;
+    color: white;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+/* ======================= Media Qeury ========================== */
+
+@media screen and (max-width: 768px) {
+    .header{
+        height: 6rem;
+    }
+
+    .Add-btn{
+        padding: 0.2rem;
+        height: 35px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .header{
+        height: 6rem;
+    }
+
+    .Add-btn{
+        padding: 0.2rem;
+        height: 35px;
+    }
+
+    .Mail{
+        margin-right: 0 !important;
+    }
+    
+}

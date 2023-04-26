@@ -1,0 +1,161 @@
+.sale_container{
+    width: 80%;
+    margin: auto;
+    padding: 4rem 1rem;
+    display: flex;
+    /* align-items:center; */
+}
+
+.sale_us{
+    width: 5rem;
+    color: #FF5A3C;
+    background-color: #feded8;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0.2em;
+    
+}
+
+.abt_img{
+    width: 35vw;
+    height: 80vh;
+}
+
+.sale-content{
+    padding: 1rem;
+    
+}
+
+.sale_heading{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.sale_details{
+    font-size: 14px;
+    width: auto;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+}
+
+.sale-ul{
+    list-style: none;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+    
+}
+
+.sale-ul li {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    padding-left: 0;
+}
+
+.sale-icon{
+    object-fit: contain;
+    border-radius: 50%;
+    padding: 0.5rem;
+    object-fit: cover;
+    width: 3rem;
+}
+
+.services{
+    padding: 1rem 1rem;
+    background-color: #FF5A3C;
+    color: white;
+    border-style: none;
+}
+
+.sale_img{
+    width:10vw;
+}
+
+.sale_content ul {
+    opacity: 0.8;
+    list-style: disc;
+    padding-left: 0 !important;
+}
+
+
+/* ======================= Madia Quary ======================== */
+
+@media screen and ( max-width:990px) {
+    .sale_container{
+        display: block;
+    }
+
+    .sale-content{
+        width: 80%;
+        margin: auto;
+    }
+
+    .sale_img{
+        width: 18vw !important;
+    }
+
+    .sale_image{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+
+    .sales_img{
+        text-align: center !important;
+    }
+}
+
+
+@media screen and ( max-width:576px) {
+    .sale_container{
+        width: 100%;
+    }
+    .sale-content{
+        width: 80%;
+        margin: auto;
+    }
+
+    .sale_img{
+        width: 18vw !important;
+    }
+
+    .sale_details{
+        width: auto;
+        font-size: 13px;
+    }
+
+    .icon_container{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .image_conatiner{
+        display: grid;
+        grid-template-columns: auto auto auto; 
+        padding: 0.2rem;
+        width: 19vw !important;
+    }
+
+    .sale-ul li{
+        margin: 0;
+        
+    }
+
+    .sale_content ul li{
+        font-size: 14px !important;
+    }
+
+    .sale_heading{
+        font-size: 2rem;
+    }
+
+    .sale_image{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+
+    .sales_img{
+        text-align: center !important;
+    }
+
+}

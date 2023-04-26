@@ -1,0 +1,15 @@
+.Lead-container{
+    /* width: 80vw;
+    margin: auto; */
+    text-align: center;
+    padding: 5rem 0rem;
+    background-color: #F2F6F7;
+}
+
+.lead_icon{
+    width: 5vw;
+}
+
+.Lead_head{
+    font-size: 14px;
+}

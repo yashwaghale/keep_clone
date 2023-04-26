@@ -1,0 +1,26 @@
+.headabt_conatiner{
+    padding: 8rem;
+    background-color: #F2F6F7;
+    font-weight: 600;
+}
+
+.bi-house-door-fill{
+    color: #FF5A3C;
+    padding: 10px;
+}
+
+.bi-chevron-right{
+    padding: 6px;
+}
+
+.home_abt{
+    opacity: 0.7;
+}
+
+/* ====================== Media Query ========================== */
+
+@media screen and (max-width: 576px) {
+    .headabt_conatiner{
+        padding: 4rem;
+    }
+}

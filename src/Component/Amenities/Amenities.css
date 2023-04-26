@@ -1,0 +1,148 @@
+.Amenities_card{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+   
+}
+
+.head-ame{
+    background-color: #feded8;
+    color: #FF5A3C;
+    width: 8rem;
+    font-size: 1rem;
+    margin: auto;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+
+.ame-desc{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.ame_Card{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+}
+
+.ame_Card:hover{
+    background-color: #FF5A3C;
+    color: white;
+}
+
+.ame_Card:hover .arrow{
+    background-color: white;
+    color: #FF5A3C;
+}
+
+.parking_icon{
+    width: 5rem;
+    padding: 0.5rem;
+    object-fit:contain;
+    border-radius: 50%;
+    background-color: #feded8;
+    color: #FF5A3C;
+}
+
+.parking_space{
+    margin-top: 2rem;
+}
+
+.ame_card{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: auto;
+}
+
+.security i{
+    display: flex;
+    width: 5rem;
+    height: 2rem;
+}
+
+
+/* ========================== Media queary ============================= */
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .ame_card{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+    .ame_card{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 0;
+        row-gap: 10px;
+    }
+
+    .Amenities_card{
+        width: 100%;
+        padding: 1rem !important;
+    }
+
+    .ame_Card{
+        width: 14rem !important;
+        height: 14rem !important;
+    }
+
+    .parking_icon{
+        width: 5rem;
+    }
+
+    .parking_space{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 766px) and (min-width: 576px) {
+    .ame_card{
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 0;
+        row-gap: 15px;
+        width: 92%;
+        margin: auto;
+    }
+
+    .Amenities_card{
+        width: 100%;
+        padding: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 575px) and (min-width: 450px) {
+    .ame_card{
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 0;
+        row-gap: 15px;
+        width: 92%;
+        margin: auto;
+    }
+
+    .Amenities_card{
+        width: 100%;
+      
+    }
+
+    .ame_Card{
+        width: 12rem !important;
+        height: 12rem !important;
+    }
+    
+    .parking_icon{
+        width: 4rem;
+    }
+
+    .parking_space{
+        font-size: 18px;
+    }
+}

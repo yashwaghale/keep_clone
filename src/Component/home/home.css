@@ -1,0 +1,103 @@
+
+.home_container{
+    padding: 2rem !important;
+    align-items: center;
+    background-color: #8cb2b2;
+    
+}
+
+.enquiry-link{
+    color: #fff;
+}
+
+.enquiry-link:hover{
+    color: black;
+}
+
+
+
+.home-img{
+    width: 80% !important;
+    
+}
+
+.image{
+    text-align: center !important;
+}
+
+.bi-house-fill{
+    color: #FF5A3C;
+}
+
+.home-icon{
+    font-weight: 500;
+}
+
+.Heading{
+    font-size: 3rem;
+    font-weight: 650;
+}
+
+.Home_Deatail{
+    width: 20rem;
+}
+
+.enquiry-btn{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #FF5A3C;
+    color: white;
+    border-style: none;
+}
+
+.enquiry-btn:hover{
+    background-color: #fff;
+}
+
+.enquiry-btn:hover .enquiry-link{
+   color: black;
+   text-decoration: none;
+}
+
+/* =================Media quary======================== */
+
+@media screen and (max-width: 1000px) {
+    .Heading{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+   .home-img{
+    margin: auto;
+   }
+
+   .home-list{
+    width: 80%;
+    margin: auto;
+   }
+
+   .Heading{
+    font-size: 1.8rem;
+    }
+
+    .Home_Deatail{
+        width: 17.5rem;
+        height: 5rem;
+        overflow: hidden;
+    }
+
+    .enquiry-btn{
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem ;
+    }
+
+    .home-img{
+        width: 100% !important;
+        
+    }
+}
+
+
+
+
